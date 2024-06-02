@@ -1,4 +1,4 @@
-##### Setup Django Project	
+##### SETUP DJANGO PROJECT	
 
 ```python
 #Create python env [blogenv]
