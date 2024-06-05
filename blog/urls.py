@@ -22,4 +22,6 @@ urlpatterns = [
     path('blogapp/', include('blogapp.urls')),
     path("__debug__/", include("debug_toolbar.urls")),
     path('api-auth/', include('rest_framework.urls')),
+    
+    path("__reload__/", include("django_browser_reload.urls")),
 ]
