@@ -16,5 +16,5 @@ def blog_list(request):
 def hello_world(request):
     return HttpResponse('Hello World, !!')
 
-def main_page(request):
-    return render(request, 'main.html', {'name' : 'Laxmi Yadav'})
+def index_page(request):
+    return render(request, 'blogapp/index.html')
